@@ -1,0 +1,61 @@
+﻿body{
+    background-color: rgb(0, 192, 192)
+}
+
+.todolist{
+    font-family: 'Times New Roman', Arial;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+h1{
+    font-size: 36pt;
+    color: rgb(128, 64, 0);
+}
+
+button {
+    font-size: 12pt;
+    padding: 10px 10px;
+    margin-left: 10px;
+    color: rgb(0, 192, 192);
+    background-color: rgb(128, 64, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+
+button:hover{
+    background-color: rgb(92, 48, 0);
+}
+
+input[type="text"]{
+    font-size: 12pt;
+    padding: 5px;
+    border: 2px solid rgb(92, 48, 0);
+    border-radius: 20px;
+    color: rgb(92, 48, 0);
+}
+
+ol{
+    padding: 0;
+
+}
+
+li{
+    font-size: 18pt;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(128, 64, 0);
+    background-color: rgb(0, 192, 192);
+    margin-bottom: 10px;
+    border: 2px solid rgb(92, 48, 0);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    flex: 1;
+}
